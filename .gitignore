@@ -1,5 +1,5 @@
 .idea
-lib/confs/
+
 symfony/cache/
 symfony/config/
 symfony/log/
