@@ -17,6 +17,8 @@
 // Boston, MA  02110-1301, USA
 */
 
+
+
 class Conf {
 
 	var $dbhost;
@@ -31,11 +33,11 @@ class Conf {
 
 	function Conf() {
 
-		$this->dbhost	= 'ec2-54-197-34-207.compute-1.amazonaws.com';
-		$this->dbport 	= '5432';
-		$this->dbname	= 'db3ue6m6040407';
-		$this->dbuser	= 'sicfenghvlttkt';
-		$this->dbpass	= '9be1ad85698e48d03ee95aee6d01e2a19b0a16dcfac6d26a4391363b7646bc9b';
+		$this->dbhost	= 'us-cdbr-east-02.cleardb.com';
+		$this->dbport 	= '3306';
+		$this->dbname	= 'heroku_c5e27b03f75f7f2';
+		$this->dbuser	= 'b33754d4c413ab';
+		$this->dbpass	= 'db036fb4';
 		// $this->smtphost = 'localhost';
 		$this->version = '4.6';
 		$this->emailConfiguration = dirname(__FILE__).'mailConf.php';
